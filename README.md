@@ -102,4 +102,4 @@ npm start        # watch mode
 
 ## License
 
-[MIT](LICENSE) © Your Name
+[MIT](LICENSE) © Mehul Dave
