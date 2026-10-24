@@ -1,0 +1,30 @@
+{
+	"name": "dynamic-posts-grid-block",
+	"version": "1.0.0",
+	"description": "A server-rendered posts grid block for WordPress with category, layout and pagination controls.",
+	"author": "Your Name",
+	"license": "MIT",
+	"scripts": {
+		"build": "wp-scripts build --webpack-copy-php",
+		"start": "wp-scripts start --webpack-copy-php",
+		"format": "wp-scripts format",
+		"lint:js": "wp-scripts lint-js src",
+		"lint:css": "wp-scripts lint-style \"src/**/*.scss\"",
+		"plugin-zip": "wp-scripts plugin-zip"
+	},
+	"files": [
+		"build",
+		"dynamic-posts-grid-block.php",
+		"LICENSE"
+	],
+	"devDependencies": {
+		"@wordpress/block-editor": "^19.0.0",
+		"@wordpress/blocks": "^17.0.0",
+		"@wordpress/components": "^43.0.0",
+		"@wordpress/core-data": "^9.0.0",
+		"@wordpress/data": "^11.0.0",
+		"@wordpress/i18n": "^7.0.0",
+		"@wordpress/server-side-render": "^7.0.0",
+		"@wordpress/scripts": "^37.0.0"
+	}
+}
